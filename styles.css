@@ -32,22 +32,65 @@ body {
 }
 
 .red {
-  background-color: rgb(255, 60, 0);
+  border: 10px solid rgb(255, 60, 0);
 }
 
 .green {
-  background-color: rgb(17, 155, 90);
+  border: 10px solid rgb(47,247,85);
 }
 
 .blue {
-  background-color: rgb(62, 62, 202);
+  border: 10px solid rgb(30, 132, 242);
 }
 
 .yellow {
-  background-color: rgb(247, 247, 85);
+  border: 10px solid rgb(247, 247, 85);
 }
 
 .pressed {
   box-shadow: inset 0 0 20px rgba(224, 241, 235, 0.459);
   background-color: rgba(128, 128, 128, 0.719);
+}
+.blue:hover, .blue:focus{
+      background-color: rgb(30, 132, 242);
+      box-shadow:
+      0 0 7px rgba(202, 215, 228, 0.92),
+      0 0 15px rgba(202,215,228,0.34),
+      0 0 9px rgba(30,132,242,0.52),
+      0 0 12px rgba(30,132,242,0.92),
+      0 0 16px rgba(30,132,242,0.78),
+      0 0 30px rgba(30,132,242,0.92);
+}
+.yellow:hover, .yellow:focus{
+ 
+      background-color: rgb(247, 247, 85);
+      box-shadow:
+      0 0 7px rgba(225, 228, 202, 0.92),
+      0 0 15px rgba(225,228,202,0.34),
+      0 0 9px rgba(247,247,85,0.52),
+      0 0 12px rgba(247,247,85,0.92),
+      0 0 16px rgba(247,247,85,0.78),
+      0 0 30px rgba(247,247,85,0.92);
+}
+.green:hover, .green:focus{
+ 
+      background-color: rgb(47,247,85);
+      box-shadow:
+      0 0 7px rgba(202, 228, 203, 0.92),
+      0 0 15px rgba(202,228,203,0.34),
+      0 0 9px rgba(47,247,85,0.52),
+      0 0 12px rgba(47,247,85,0.92),
+      0 0 16px rgba(47,247,85,0.78),
+      0 0 30px rgba(47,247,85,0.92);
+}
+.red:hover, .red:focus{
+ 
+      background-color: rgb(255,60,0);
+      box-shadow:
+      0 0 7px rgba(228, 207, 202, 0.92),
+      0 0 15px rgba(228,207,202,0.34),
+      0 0 9px rgba(255,60,0,0.52),
+      0 0 12px rgba(255,60,0,0.92),
+      0 0 16px rgba(255,60,0,0.78),
+      0 0 30px rgba(255,60,0,0.92);
 }
